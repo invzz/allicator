@@ -1,5 +1,0 @@
-/mnt/c/Users/andres.coronado/Documents/git/Arenas/build/CMakeFiles/rbt.dir
-/mnt/c/Users/andres.coronado/Documents/git/Arenas/build/CMakeFiles/analloc.dir
-/mnt/c/Users/andres.coronado/Documents/git/Arenas/build/CMakeFiles/main.dir
-/mnt/c/Users/andres.coronado/Documents/git/Arenas/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/andres.coronado/Documents/git/Arenas/build/CMakeFiles/rebuild_cache.dir
