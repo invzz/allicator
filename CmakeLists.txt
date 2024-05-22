@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.21)
+
+project(analloc)
+
+set(SRC ./src/)
+set(INC ./inc/)
+
+include_directories(${INC})
+
+add_library(rbt ${INC}/rbt.h  ${SRC}/rbt.c )
+
+add_library(analloc ${INC}/analloc.h  ${SRC}/rbt_analloc.c)
+
+target_link_libraries(analloc rbt)
+
+add_executable(main ${SRC}/main.c )
+
+target_link_libraries(main analloc)
+
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/dist/)
